@@ -1,0 +1,237 @@
+
+body
+{
+    background-color: #eee;
+}
+
+.container
+{
+    width: 1170px;
+    margin: auto
+}
+
+.clearfix{
+    clear: both
+}
+/* Start header*/
+
+.header .slider{
+    background-image:url('../images/company-through-digital-transformation-bg-1-1170x600.jpg');
+    background-size: cover;
+    height: 400px
+}
+.header .slider .intro{
+    color: white;
+    text-align: center;
+    padding-top: 130px
+}
+.header .slider .intro h2{
+    margin: 0 auto;
+    font-size: 50px;
+    width: 600px;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+    padding: 5px 0
+}
+
+.header .slider .intro button{
+    background: none;
+    width: 150px;
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+    border: 2px solid #fff;
+    font-weight: bold;
+    padding: 10px 20px
+}
+.header .navbar{
+    background-color: #252f31;
+    color: #fff;
+    overflow: hidden
+}
+.header .navbar h2{
+    float: left;
+    text-transform: uppercase
+}
+.header .navbar h2 span{color:forestgreen}
+.header .navbar ul{
+    list-style: none;
+    padding-left: 0;
+    overflow: hidden;
+    float: right
+}
+.header .navbar ul li{
+    float: left ;
+    padding:  10px
+}
+.header .navbar ul li a{
+    color: white;
+    text-decoration: none;
+}
+.header .navbar ul li.active a,
+.header .navbar ul li a:hover{
+    color: forestgreen
+}
+
+/* End header */
+
+/* Start Features*/
+.features{
+    overflow: hidden;
+    background-color: white;
+    padding-bottom: 30px;
+    padding-top: 30px
+}
+
+.features .feat {
+    width: 33.3333%;
+    float: left
+}
+.features .feat h2{
+    text-transform: capitalize;
+    color: #444
+}
+.features .feat p{
+    line-height: 1.5;
+    color: #666;
+    
+}
+/* End Features */
+
+
+/* Start About me */
+.about_me {
+    background-color: #f2f2f2;
+    overflow: hidden
+    
+}
+
+.about_me .image{
+    float: left;
+    width:40%
+}
+
+.about_me .image img { width: 100%}
+.about_me .info {
+    float: left;
+    width : 60%
+}
+.about_me .info h2{
+    margin: 40px 0 40px 40px
+}
+.about_me .info >p{
+    margin: 0 0 10px 40px;
+    line-height: 1.5
+}
+.about_me .info .hobbies{
+    margin:50px 0 10px 40px;
+    overflow: hidden
+}
+.about_me .info .hobbies h3{
+    margin:20px 0 10px 40px
+}
+.about_me .info .hobbies p{
+    margin: 10px 0 10px 40px;
+    line-height: 1.5
+}
+.about_me .info .hobbies >div{
+    overflow: hidden;
+    float: left;
+    width: 50%
+}
+/* End About me */
+
+/* start my skills */
+.my-skills{
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden
+    
+}
+.my-skills .skills,
+.my-skills .progress{
+    float: left;
+    width: 50%
+}
+/* end my skills */
+
+/* start my resume */
+.resume{
+    background-color: #f2f2f2;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center
+}
+/* end my resume */
+
+/* start my education */
+.my-education{
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden
+    
+}
+.my-education .main,
+.my-education .exp{
+    float: left;
+    width: 50%
+}
+/* end my education */
+
+/* start my testemonial */
+.testemonial{
+    background-color: #f2f2f2;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center
+}
+/* end my testemonial */
+
+/* start my portofio */
+.portofio{
+    overflow: hidden;
+    background-color: white
+}
+
+.portofio .protfolio-de{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center
+}
+.portofio .our-work img{
+    width: 30%;
+    float: left;
+    padding: 10px
+}
+
+/* end my portofio */
+
+/* start contact me */
+.contact{
+    background-color:dimgrey;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden
+}
+
+.contact .contact-info,
+.contact .contact-form{
+    width: 45% ;
+    float: left;
+    
+}
+
+/* end contact me */
+
+/* start footer */
+
+.footer{
+    background-color: darkslategray;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+/* end footer */
